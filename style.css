@@ -1,20 +1,19 @@
 body{
-  background-color: #686868;
   margin: 0;
-  color: white;
 }
 
 .about-me{
   height: 400px;
   width: 50%;
   text-align: center;
-  margin: 100px auto;
-  border: black solid 1px;
+  margin: 100px auto 20px auto;
+  font-family: sans-serif;
+  /* border: black solid 1px; */
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #006699;
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,27 +32,36 @@ body{
 
 /* Change background on mouse-over */
 .navbar a:hover {
-    background: #ddd;
-    color: black;
+    background: #686868;
+    color: white;
 }
 
 .projects{
-  height: 1500px;
-  width: 50%;
+  height: 900px;
+  width: 70%;
   text-align: center;
-  margin: 100px auto;
-  border: black solid 1px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  /* border: black solid 1px; */
 }
 
 .all-projects{
-  border: black solid 1px;
+  /* border: black solid 1px; */
   width: 70%;
   margin: 0 auto;
 }
 
-.project1{
+.project-buttons{
   background-color: orange;
   width: 40%;
   height: 100px;
-  top: 0;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.footer{
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
 }
